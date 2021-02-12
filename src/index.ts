@@ -1,3 +1,5 @@
-let user: string = 'sizuku'
+import * as PIXI from 'pixi.js'
 
-console.log(`hello ${user}`)
+const app = new PIXI.Application()
+
+document.body.appendChild(app.view)
