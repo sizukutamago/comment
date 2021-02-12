@@ -47,7 +47,7 @@ export default class CommentRenderer {
 
             this.addText(renderedComments)
 
-            this.commentSet.forEach(this.updatePosition)
+            this.commentSet.forEach(this.updatePosition.bind(this))
         })
     }
 
