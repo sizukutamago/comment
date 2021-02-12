@@ -19,8 +19,6 @@ const textStyle = new PIXI.TextStyle({
     wordWrapWidth: 100
 })
 
-
-
 export default class CommentRenderer {
     private commentSet: Set<PIXI.Text>
 
